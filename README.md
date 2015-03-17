@@ -11,11 +11,8 @@ Twig filter that splits an array into a given number of groups.  This is differe
 
 The filter is registered at Packagist as [cviebrock/twig-group](https://packagist.org/packages/cviebrock/twig-group) and can be installed using [composer](http://getcomposer.org/):
 
-```
-"require": {
-	...
-	"cviebrock/twig-group": "0.9.*",
-}
+```sh
+composer require cviebrock/twig-group
 ```
 
 Or just download the zip file and copy the file into your _src_ folder.
