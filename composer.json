@@ -1,0 +1,32 @@
+{
+    "name": "cviebrock/twig-group",
+    "description": "Twig filter that splits an array into a given number of groups (unlike batch, which splits the array based on items per group)",
+    "keywords": [
+        "templating",
+        "twig",
+        "filter",
+        "group",
+        "batch"
+    ],
+    "license": "MIT",
+    "homepage": "http://github.com/cviebrock/twig-group",
+    "authors": [
+        {
+            "name": "Colin Viebrock",
+            "email": "colin@viebrock.ca"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cviebrock/twig-group/issues",
+        "source": "https://github.com/cviebrock/twig-group"
+    },
+    "require": {
+        "twig/twig": "1.*",
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cviebrock\\Twig\\": "src/"
+        }
+    }
+}
