@@ -49,7 +49,7 @@ class GroupExtension extends \Twig_Extension {
 			$perGroup = count($array) / $groups;
 
 			// chunk it
-			return array($array, $perGroup, true);
+			return array_chunk($array, $perGroup, true);
 
 		}
 
