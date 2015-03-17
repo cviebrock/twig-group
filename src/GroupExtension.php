@@ -33,7 +33,7 @@ class GroupExtension extends \Twig_Extension {
 
 		// if moving into 1 (or fewer) groups, just return original array
 		if ($groups <= 1) {
-			return $arary;
+			return $array;
 		}
 
 		// add any extra entries, if needed
